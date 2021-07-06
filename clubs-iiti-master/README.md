@@ -2,11 +2,10 @@
 <h4 align="center">A club management system build for  <a href="https://www.iiti.ac.in/" target="_blank">IITI</a> community.</h4>
 <p align="center">
   <a href="#aim">AIM</a> •
-  <a href="#local-installation">Local Installation</a> •
-  <a href="#links">Links</a> •
+  <a href="#local-installation">Local Installation</a> ••
   <a href="#testing">Tesing</a> •
   <a href="#tech-stack">Tech Stack</a> •
-  <a href="#team-members">Team Members</a>
+ 
 </p>
 
 <p align="center">
@@ -27,12 +26,6 @@ Directors’ main work is to assign permission to the admins,<br> club heads and
 staff when they want to create a new club or dissolve any existing club or merging
 two clubs.He also has all the authorities that are with the admins and the staff.
 He can also directly post<br> notice to the website, admins or club heads.
-
-## Local Installation
-
--   Clone this repo using <code>git clone https://github.com/gg-dev-05/clubs-iiti.git</code>
--   After cloning create a <code>.env</code> file to store all the environment variables
--   Fill in the <code>.env</code> file with the content as follows
 
 ```
 env = dev
@@ -61,8 +54,6 @@ secret_key =  RETRACTED (Any secret key of your choice)
 -   If selected, he can continue
 
 
-## Testing
-In Order to run the automated testing in flask download chromewebdriver according to your version(for refernce see this tutorial <a href="https://youtu.be/Xjv1sY630Uc">click here</a>) and then  create a secret.py file and write the content as follows
 
 ```
 email = RETRACTED (Enter the email for which you want to run the tests)
@@ -130,34 +121,4 @@ Demo Video : <a href="https://drive.google.com/file/d/1Q5iBTbU-AIOkCVzjc3rHZ2K9c
 	</ul>
 </ul>
 
-## Team Members
-
-<p align="center">
-<a href="https://github.com/dmdivyansh">
-  	<img src="https://github.com/dmdivyansh.png" width="50px">
-</a>
-
-<a href="https://github.com/eeshmalvi">
-	<img src="https://github.com/eeshmalvi.png" width="50px">
-</a>
-
-<a href="https://github.com/gg-dev-05">
-	<img src="https://github.com/gg-dev-05.png" width="50px">
-</a>
-
-<a href="https://github.com/somyamehta24">
-	<img src="https://github.com/somyamehta24.png" width="50px">
-</a>
-
-<a href="https://github.com/Tanishq-30">
-	<img src="https://github.com/Tanishq-30.png" width="50px">
-</a>
-</p>
-
-<p align="center">
-		<a href="https://github.com/dmdivyansh">Divyansh Maheshwari</a> •
-		<a href="https://github.com/eeshmalvi">Eish Malvi</a> •
-		<a href="https://github.com/gg-dev-05">Garvit Galgat</a> •
-		<a href="https://github.com/somyamehta24">Somya Mehta</a> •
-		<a href="https://github.com/Tanishq-30">Tanishq Jain</a>
 </p>
