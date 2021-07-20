@@ -3,14 +3,10 @@
 <p align="center">
   <a href="#aim">AIM</a> •
   <a href="#local-installation">Local Installation</a> ••
-  <a href="#testing">Tesing</a> •
   <a href="#tech-stack">Tech Stack</a> •
  
 </p>
 
-<p align="center">
-A project under the course <b>CS-258</b>, we created this application under the guidance of Puneet Gupta Sir and Anup Gupta Sir.
-</p>
 
 
 ## AIM
