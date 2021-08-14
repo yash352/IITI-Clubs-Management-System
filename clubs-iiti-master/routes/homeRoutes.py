@@ -5,7 +5,7 @@ from utilities.images import img
 home = Blueprint('home', __name__)
 
 '''
-This redirects to the source home page if the Email ID is recognised as given by institute
+This redirects to the source home page if the Email ID is recognised as given by our institute
 as "iiti.ac.in" as POSTFIX , otherwise it insists for joining by the same 
 '''
 @home.route("/")
