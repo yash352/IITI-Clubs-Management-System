@@ -15,7 +15,7 @@ def club(clubName):
     cur.execute("select * from clubs WHERE Title=\'{}\'".format(clubName))
     club = cur.fetchone()
 
-    # Check if club exists ----------------
+    # Check if the club exists ----------------
     try:
         title = club[1]
         info = club[2]
