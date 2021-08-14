@@ -5,7 +5,7 @@ student = Blueprint('student', __name__)
 
 '''
 This helps to add a new student in the database along with his/her details
-like mail_id, fullname , branch , roll number , linked profile etc. through the
+like mail_id, fullname , branch , roll numbers , linked profile etc. through the
 provided form, then he can explore the website consisting of different clubs
 '''
 @student.route("/student", methods=['GET', 'POST'])
