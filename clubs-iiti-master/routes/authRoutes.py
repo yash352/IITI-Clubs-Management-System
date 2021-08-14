@@ -50,7 +50,7 @@ def authorize():
 @auth.route("/logout")
 def logout():
     '''
-    This is to clear all the information of a user that was persisting in the session variable 
+    This is to clear all the information of a user that was persisting in the session variables 
     '''
     for key in list(session.keys()):
         session.pop(key)
