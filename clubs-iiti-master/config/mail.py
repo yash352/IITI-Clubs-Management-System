@@ -1,7 +1,7 @@
 import os
 
 '''
-Configuration for sending emails
+Configuration for sending the emails
 '''
 
 port = 465  # For SSL
