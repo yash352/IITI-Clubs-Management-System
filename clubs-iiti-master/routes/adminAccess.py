@@ -10,7 +10,7 @@ admin = Blueprint('admin', __name__, url_prefix='/clubs')
 def manage(clubName, manage, email):
     '''
     This function runs when club head  rejects,deletes and
-    removes an applicant or schedule a meeting with the applicant.
+    removes an applicant or schedule a meeting with the applicants.
     '''
     cur = mysql.connection.cursor()
     user = dict(session).get("email", None)
